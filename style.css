@@ -146,3 +146,22 @@ header {
 #third-text {
     margin-right: 100px;
 }
+
+.fourth-section {
+    padding: 100px;
+    border-bottom: 10px solid rgb(34,34,34);
+}
+
+#fourth-txt {
+    width: 60%;
+}
+
+.fourth-section h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.fourth-section h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
