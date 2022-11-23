@@ -239,3 +239,39 @@ header {
     font-weight: 500;
     font-size: 1.5rem;
 }
+
+footer {
+    padding: 50px 200px;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+footer p a {
+    color: #737373;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+#identity {
+    color: #737373;
+    margin-top: 20px;
+}
+
+.footer-class {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.footer-class li {
+    list-style:none;
+    color: #737373;
+    margin:10px 0;
+}
+
+.footer-class li a {
+    text-decoration: none;
+    color: #737373;
+}
