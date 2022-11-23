@@ -89,6 +89,7 @@ header {
     color: #fff;
     font-weight: 500;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 ::placeholder {
@@ -215,6 +216,7 @@ header {
     justify-content: space-between;
     font-size: 25px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .faq-form {
@@ -238,6 +240,7 @@ header {
     color: #fff;
     font-weight: 500;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 footer {
@@ -252,6 +255,9 @@ footer p a {
     color: #737373;
     margin-bottom: 20px;
     text-decoration: none;
+}
+footer p a:hover {
+    text-decoration: underline;
 }
 
 #identity {
@@ -274,4 +280,8 @@ footer p a {
 .footer-class li a {
     text-decoration: none;
     color: #737373;
+}
+
+.footer-class li a:hover {
+    text-decoration: underline;
 }
