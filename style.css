@@ -194,6 +194,7 @@ header {
 }
 
 .faq-section {
+    padding-top: 50px;
     padding-bottom: 70px;
     border-bottom: 10px solid rgb(34,34,34);
 }
