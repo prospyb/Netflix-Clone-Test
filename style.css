@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    background-color: black;
+    color: #fff;
+}
+
+header {
+    background: transparent;
+    padding: 1rem 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+.header-wrapper a {
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    background-color: rgb(229,9,20);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
